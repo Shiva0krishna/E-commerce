@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo"></div>
+        <li id="navlist">
+            <!-- <ul id="navitems"> <a>Home</a></ul> -->
+            <ul id="navitems"> <a>Categories</a></ul>
+            <ul id="navitems"> <a>About</a></ul>
+            <ul id="navitems"> <a>Track Order</a></ul>
+            <ul id="navitems"> <a>contact</a></ul>
+        </li>
+        <div  onclick="opencart()" class="icon-cart">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+            </svg>
+            <span>0</span>
+        </div>
+        <button class="openbtn" onclick="openNav()">☰ </button>
+    </nav>
+
+        
+    <div id="cartbar">
+        <h1>Shopping Cart</h1>
+        <!-- <div class="items">
+            <div id="pimage">
+                <img src="./peter parker.jpg" alt="peter parker">
+            </div>
+            <div id="pname">spidey
+            </div>
+            <div id="pprice">
+                $400
+            </div>
+            <div id="quantity">
+                <span id="minus"><</span>
+                <span>1</span>
+                <span id="plus">></span>
+            </div>
+        </div> -->
+        <a id="closec"  href="javascript:void(0)"  onclick="closecart()">Close</a>
+        <a id="orderc" href="#">Order</a>
+    </div>
+
+    <div id="mySidepanel" class="sidepanel">
+        <a id="house" href="javascript:void(0)"  class="closebtn" onclick="closeNav()">×</a>
+        <a id="house" id="anchor" href="./main.html">Home</a>
+        <a id="house" id="anchor" href="#">newpage</a>
+        <a id="house" id="anchor" href="#">data-2</a>
+        <a id="house" id="anchor" href="#">data-3</a>
+        <a id="house" id="loginanchor" href="./login.html">Login</a>
+    </div>
+    <div id="searchdiv" class="Search_search_box__OqBzU">
+        <div id="searchicon" class="Search_search_icon__IpiKm">
+            <i class="bx bx-search"></i>
+        </div>
+        <div  class="Search_search_input__J6xt6">
+            <input id="searchbar" type="search" autocomplete="off" placeholder="    Search strickers..." value="">
+        </div>
+    </div>
+    <div class="badges">
+        <span id="badge" class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-pink-400 border border-pink-400"><a href="#s3">Marvel stickers</a></span>
+        <span id="badge" class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400"><a href="#s2">BTS Stickers</a></span>
+        <span id="badge" class="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500"><a href="#s1">Cricket</a></span>
+        <span id="badge" class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-red-400 border border-red-400"><a href="#s4">Anime Stickers</a></span>
+        <span id="badge" class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-green-400 border border-green-400"><a href="#s5">Medical Stickers</a></span>
+        <span id="badge" class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300"><a href="#s6">Aesthetic Stickers</a></span>
+        <span id="badge" class="bg-indigo-100 text-indigo-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-indigo-400 border border-indigo-400"><a href="#s7">Coding Stickers</a></span>
+        <span id="badge" class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400"><a href="#s8">Cartoon Stickers</a></span>
+        <span id="badge" class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-green-400 border border-green-400"><a href="#s9">Gym stickers</a></span>
+    </div>
+    <div id="kgi">
+        <h3 id="heading">Cricket</h3>
+        <a id="viewmore" href="#">View more &rarr;</a>
+    </div>
+    <section id="s1"></section>
+    <button class="custom-btn btn-16">View more &rarr;</button>
+    <div id="kgi">
+        <h3 id="heading">BTS</h3>
+        <a id="viewmore" href="#">View more &rarr;</a>
+    </div>
+    <section id="s2"></section>
+    <button class="custom-btn btn-16">View more &rarr;</button>
+    <div id="kgi">
+        <h3 id="heading">Marvel Stickers</h3>
+        <a id="viewmore" href="#">View more &rarr;</a>
+    </div>
+    <section id="s3"></section>
+    <button class="custom-btn btn-16">View more &rarr;</button>
+    <div id="kgi">
+        <h3 id="heading">Anime Stickers</h3>
+        <a id="viewmore" href="#">View more &rarr;</a>
+    </div>
+    <section id="s4"></section>
+    <button class="custom-btn btn-16">View more &rarr;</button>
+    <div id="kgi">
+        <h3 id="heading">Medical Stickers</h3>
+        <a id="viewmore" href="#">View more &rarr;</a>
+    </div>
+    <section id="s5"></section>
+    <button class="custom-btn btn-16">View more &rarr;</button>
+    <div id="kgi">
+        <h3 id="heading">Aesthetic Stickers</h3>
+        <a id="viewmore" href="#">View more &rarr;</a>
+    </div>
+    <section id="s6"></section>
+    <button class="custom-btn btn-16">View more &rarr;</button>
+    <div id="kgi">
+        <h3 id="heading">Coding stickers</h3>
+        <a id="viewmore" href="#">View more &rarr;</a>
+    </div>
+    <section id="s7"></section>
+    <button class="custom-btn btn-16">View more &rarr;</button>
+    <div id="kgi">
+        <h3 id="heading">Cartoon stickers</h3>
+        <a id="viewmore" href="#">View more &rarr;</a>
+    </div>
+    <section id="s8"></section>
+    <button class="custom-btn btn-16">View more &rarr;</button>
+    <div id="kgi">
+        <h3 id="heading">Gym stickers</h3>
+        <a id="viewmore" href="#">View more &rarr;</a>
+    </div>
+    <section id="s9"></section>
+    <button class="custom-btn btn-16">View more &rarr;</button>
+
+    
+
+    <footer id="foots" class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+        </span>
+        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            <li>
+                <a id="fa" href="#" class="hover:underline me-4 md:me-6">About</a>
+            </li>
+            <li>
+                <a id="fa" href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+            </li>
+            <li>
+                <a id="fa" href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+            </li>
+            <li>
+                <a id="fa" href="#" class="hover:underline">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </footer>
+</body>
+</html>

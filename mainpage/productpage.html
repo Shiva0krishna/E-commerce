@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+    <link rel="stylesheet" href="productpage.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- Tailwind components -->
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- boxicons -->
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+  <script>
+    $(function(){
+      $('#navbar').load('header.html')
+    });
+  </script>
+  <script>
+        $(function(){
+        $('#sidebar').load('sidebar.html')
+      });
+  </script>
+</head>
+<body>
+    <nav id="navbar">
+    </nav>
+    <div id="sidebar">
+    </div>
+
+    <div class="whole">
+        <div  id="productimgs">
+            <img id="i" >
+        </div>
+        <div id='productinfo' class="button-81">
+            <h5>spidey</h5>
+            <h3>Peter Parker</h3>
+            <h3 id="k">₹15.00 </h3><h5 id="k">incl taxes</h5>
+            <button type="button" id="btnbuy"  class="btn btn-primary">  Add to cart  </button>
+        </div> 
+    </div>
+    <script>
+        window.onload = function() {
+            setProductImage();
+        };
+    </script>
+</body>
+</html>
+
