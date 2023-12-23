@@ -446,7 +446,12 @@ body::-webkit-scrollbar{
   top:45%;
   right:-14px;
 }
- 
+#tit{
+  margin-top:2%;
+   margin-left: 35%;
+   font-size: large;
+   font-weight:600px;
+}
 
 
 
