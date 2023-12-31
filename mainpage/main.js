@@ -112,6 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
   productList.addEventListener('click', (event) => {
     let clickedPlace = event.target;
     if (clickedPlace.classList.contains('bbtn')) {
+      alert('product added to the cart.Check cart section for the product.');
       let product_id = clickedPlace.parentElement.dataset.id;
       let carts=[];
       const addToCart =(product_id)=>{
@@ -248,6 +249,7 @@ document.addEventListener("DOMContentLoaded", function() {
   productList.addEventListener('click', (event) => {
     let clickedPlace = event.target;
     if (clickedPlace.classList.contains('bbtn')) {
+        alert('product added to the cart.Check cart section for the product.');
       let product_id = clickedPlace.parentElement.dataset.id;
       let carts=[];
       const addToCart =(product_id)=>{
@@ -385,6 +387,7 @@ document.addEventListener("DOMContentLoaded", function() {
   productList.addEventListener('click', (event) => {
     let clickedPlace = event.target;
     if (clickedPlace.classList.contains('bbtn')) {
+        alert('product added to the cart.Check cart section for the product.');
       let product_id = clickedPlace.parentElement.dataset.id;
       let carts=[];
       const addToCart =(product_id)=>{
@@ -522,6 +525,7 @@ document.addEventListener("DOMContentLoaded", function() {
   productList.addEventListener('click', (event) => {
     let clickedPlace = event.target;
     if (clickedPlace.classList.contains('bbtn')) {
+        alert('product added to the cart.Check cart section for the product.');
       let product_id = clickedPlace.parentElement.dataset.id;
       let carts=[];
       const addToCart =(product_id)=>{
@@ -659,6 +663,7 @@ document.addEventListener("DOMContentLoaded", function() {
   productList.addEventListener('click', (event) => {
     let clickedPlace = event.target;
     if (clickedPlace.classList.contains('bbtn')) {
+        alert('product added to the cart.Check cart section for the product.');
       let product_id = clickedPlace.parentElement.dataset.id;
       let carts=[];
       const addToCart =(product_id)=>{
@@ -802,6 +807,7 @@ document.addEventListener("DOMContentLoaded", function() {
   productList.addEventListener('click', (event) => {
     let clickedPlace = event.target;
     if (clickedPlace.classList.contains('bbtn')) {
+        alert('product added to the cart.Check cart section for the product.');
       let product_id = clickedPlace.parentElement.dataset.id;
       let carts=[];
       const addToCart =(product_id)=>{
@@ -940,6 +946,7 @@ document.addEventListener("DOMContentLoaded", function() {
   productList.addEventListener('click', (event) => {
     let clickedPlace = event.target;
     if (clickedPlace.classList.contains('bbtn')) {
+        alert('product added to the cart.Check cart section for the product.');
       let product_id = clickedPlace.parentElement.dataset.id;
       let carts=[];
       const addToCart =(product_id)=>{
@@ -1082,6 +1089,7 @@ document.addEventListener("DOMContentLoaded", function() {
   productList.addEventListener('click', (event) => {
     let clickedPlace = event.target;
     if (clickedPlace.classList.contains('bbtn')) {
+        alert('product added to the cart.Check cart section for the product.');
       let product_id = clickedPlace.parentElement.dataset.id;
       let carts=[];
       const addToCart =(product_id)=>{
@@ -1225,6 +1233,7 @@ document.addEventListener("DOMContentLoaded", function() {
   productList.addEventListener('click', (event) => {
     let clickedPlace = event.target;
     if (clickedPlace.classList.contains('bbtn')) {
+        alert('product added to the cart.Check cart section for the product.');
       let product_id = clickedPlace.parentElement.dataset.id;
       let carts=[];
       const addToCart =(product_id)=>{
